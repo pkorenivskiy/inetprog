@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторна робота №4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lab4.js"></script>
+    <link rel="stylesheet" type="text/css" href="labs.css">
+</head>
+
+<body>
+    <h1>Лабораторна робота №4</h1>
+    <div>
+        <h3>Задание 1. Имитация JQuery</h3>
+        <p>Создать функцию $, которая будет имитировать метод css из библиотеки JQuery.</p>
+    </div>
+    <br/>
+    <div>
+        <button id="btnLab4Run" class="button" onclick="btnLab4Run_Click()">Run</button>
+    </div>
+    <div id="lab4ResDiv">Some text</div>
+
+    <br />
+    <div>
+        <h3>Задание 2. Убегающя кнопка</h3>
+        <p>Создать кнопку, убегающую от курсора мыши.</p>
+    </div>
+    <br/>
+    <div>
+        <button id="btnLab4Run1" class="button" style="position:relative;z-index:10" onmouseover="btnLab4Run1()">Click me :)</button>
+    </div>
+
+    <br />
+    <div>
+        <h3>Задание 3.</h3>
+        <p>При наведении на ячейку поля – подсветить  строку и столбец</p>
+    </div>
+    <br/>
+    
+    <div id="lab4ResDiv1"></div>
+</body>
+
+</html>
