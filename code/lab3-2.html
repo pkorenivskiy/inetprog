@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta charset="UTF-8" />
-	<title>Задание 2</title>
+    <title>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР° СЂРѕР±РѕС‚Р° в„–1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lab3-2.js"></script>
+    <link rel="stylesheet" type="text/css" href="labs.css">
 
-<!--
-$(document).ready(function () {
-  var back = ["#ff0000","blue","gray"];
-  var rand = back[Math.floor(Math.random() * back.length)];
-  $('div').css('background',rand);
-})
--->
 </head>
 <body>
-	<!--    
-    1)	Создайте на странице текстовое поле и кнопку.
-    2)	Создайте произвольное количество элементов на странице с различными уровнями вложенности.
-    3)	Цель: в текстовое поле вводим селектор и нажимаем на кнопку. Элемент, который соответвует селектору, меняет цвет. 
-    -->
+    <h1>Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР° СЂРѕР±РѕС‚Р° в„–3</h1>
+    <div>
+        <p>1)	РЎРѕР·РґР°Р№С‚Рµ РЅР° СЃС‚СЂР°РЅРёС†Рµ С‚РµРєСЃС‚РѕРІРѕРµ РїРѕР»Рµ Рё РєРЅРѕРїРєСѓ.</p>
+        <p>2)	РЎРѕР·РґР°Р№С‚Рµ РїСЂРѕРёР·РІРѕР»СЊРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ СЃ СЂР°Р·Р»РёС‡РЅС‹РјРё СѓСЂРѕРІРЅСЏРјРё РІР»РѕР¶РµРЅРЅРѕСЃС‚Рё.</p>
+        <p>3)	Р¦РµР»СЊ: РІ С‚РµРєСЃС‚РѕРІРѕРµ РїРѕР»Рµ РІРІРѕРґРёРј СЃРµР»РµРєС‚РѕСЂ Рё РЅР°Р¶РёРјР°РµРј РЅР° РєРЅРѕРїРєСѓ. Р­Р»РµРјРµРЅС‚, РєРѕС‚РѕСЂС‹Р№ СЃРѕРѕС‚РІРµС‚РІСѓРµС‚ СЃРµР»РµРєС‚РѕСЂСѓ, РјРµРЅСЏРµС‚ С†РІРµС‚.</p>
+    </div>
+    <br/>
+  
+    <div>
+        <input type="text" id="txtSel" value="span1"/>
+        <button id="btnLab32Run" class="button">Run</button>
+    </div>
+    <div>
+      <div>
+        <span class="span1">text 1</span>
+      </div>
+      <div>
+        <span id="span1"></spanid>inner text 2</span>
+        <div>
+          <span id="span2">inner inner</span>
+        </div>
+      </div>
+    </div>
+    
 </body>
 </html>

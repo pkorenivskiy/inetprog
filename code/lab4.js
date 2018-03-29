@@ -15,7 +15,7 @@ var pk = {
 
 
 jQuery.noConflict();
-//var $ = pk.pk;
+var $ = pk.pk;
 
 function btnLab4Run_Click() {
     $("lab4ResDiv").css("color", "red").css("fontWeight", "900");
